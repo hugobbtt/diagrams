@@ -1,47 +1,182 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T02:13:26.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="obrZUkwC_ytZZb2u3HHv" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T03:38:31.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="ASjoifHH6GENR5aUdxU0" version="14.1.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="80" width="100" height="300" as="geometry" />
+        <mxCell id="DlLgDj64xIj23IpmnS-h-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="20" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+        <mxCell id="DlLgDj64xIj23IpmnS-h-50" value="访问主页" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="DlLgDj64xIj23IpmnS-h-1" target="DlLgDj64xIj23IpmnS-h-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="600" as="sourcePoint" />
+            <mxPoint x="90" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        <mxCell id="DlLgDj64xIj23IpmnS-h-2" value="页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="100" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="445" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="236" as="targetPoint" />
+        <mxCell id="DlLgDj64xIj23IpmnS-h-20" value="POST请求" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="DlLgDj64xIj23IpmnS-h-2" target="DlLgDj64xIj23IpmnS-h-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="dispatch" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="160" as="sourcePoint" />
+        <mxCell id="DlLgDj64xIj23IpmnS-h-51" value="GET请求" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="DlLgDj64xIj23IpmnS-h-2" target="DlLgDj64xIj23IpmnS-h-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="620" as="sourcePoint" />
+            <mxPoint x="130" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-4" edge="1">
+        <mxCell id="DlLgDj64xIj23IpmnS-h-54" value="返回user信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="DlLgDj64xIj23IpmnS-h-2" source="DlLgDj64xIj23IpmnS-h-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="200" as="sourcePoint" />
+            <mxPoint x="130" y="690" as="sourcePoint" />
+            <mxPoint x="50" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="DlLgDj64xIj23IpmnS-h-3" value="User Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-4" value="User Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="70" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-5" value="User Mapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="70" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-30" value="MySQL执行Insert语句&lt;br&gt;插入user一条数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="DlLgDj64xIj23IpmnS-h-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="257" as="targetPoint" />
+            <mxPoint x="50" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="50" y="160" />
+              <mxPoint x="75" y="160" />
+              <mxPoint x="75" y="250" />
+            </Array>
+            <mxPoint x="50" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-7" value="填写注册信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="DlLgDj64xIj23IpmnS-h-1" target="DlLgDj64xIj23IpmnS-h-2">
+          <mxGeometry x="-0.0734" width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="sourcePoint" />
+            <mxPoint x="130" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-26" value="email&lt;br&gt;password&lt;br&gt;name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-27" value="调用服务&lt;br&gt;(本地或远程服务)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-28" value="调用Mapper接口方法" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="230" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-32" value="返回User对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-33" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-34" value="打印日志" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="340" />
+              <mxPoint x="375" y="340" />
+              <mxPoint x="375" y="390" />
+            </Array>
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-35" value="重定向至登录页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="270" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-40" value="填写登录信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.0734" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="430" as="sourcePoint" />
+            <mxPoint x="180" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170.5" y="430" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-41" value="POST请求" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="450" as="sourcePoint" />
+            <mxPoint x="349.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-42" value="email&lt;br&gt;password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-43" value="调用登录服务" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="469.5" as="sourcePoint" />
+            <mxPoint x="519.5" y="469.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-44" value="MySQL执行Select语句&lt;br&gt;条件是email" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680.5" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="680.5" y="500" />
+              <mxPoint x="705.5" y="500" />
+              <mxPoint x="705.5" y="590" />
+            </Array>
+            <mxPoint x="680.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-45" value="调用Mapper接口方法" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520.5" y="500" as="sourcePoint" />
+            <mxPoint x="680" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-46" value="返回User对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680.5" y="590" as="sourcePoint" />
+            <mxPoint x="520" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-47" value="判断邮箱对应的密码是否正确&lt;br&gt;若正确返回user对象" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.5" y="610" as="sourcePoint" />
+            <mxPoint x="350" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-49" value="返回登录信息&lt;br&gt;若登陆成功&lt;br&gt;则重定向至profile页面&lt;br&gt;将userID存入Session&lt;br&gt;将user信息以userID为key&lt;br&gt;存入Redis中" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="DlLgDj64xIj23IpmnS-h-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="640" as="sourcePoint" />
+            <mxPoint x="270" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DlLgDj64xIj23IpmnS-h-53" value="从Session中获取userID&lt;br&gt;并从Redis中获取user信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="690" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="690" />
+              <mxPoint x="375" y="690" />
+              <mxPoint x="375" y="740" />
+            </Array>
+            <mxPoint x="350" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
