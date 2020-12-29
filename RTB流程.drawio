@@ -1,1 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T04:00:27.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" version="14.1.3" etag="_D4j0o8XXSYPozSzfxT-" type="github"><diagram id="sVa8Fy_nFW6MRocb3hwc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-29T06:29:59.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="uVBhNY2famCqcEyO-UFo" version="14.1.3" type="github">
+  <diagram id="sVa8Fy_nFW6MRocb3hwc" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dTX89mcppZju5oSnXSA2-2" value="1. 浏览网站或APP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-1" target="dTX89mcppZju5oSnXSA2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-12" value="2. 广告请求&lt;br&gt;通知交易平台" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.551;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dTX89mcppZju5oSnXSA2-5">
+          <mxGeometry x="-0.001" y="-40" relative="1" as="geometry">
+            <mxPoint x="360" y="90" as="sourcePoint" />
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-15" value="10. 展示广告" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-24" value="8. 请求广告物料" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-3" target="dTX89mcppZju5oSnXSA2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="60" />
+              <mxPoint x="190" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-3" value="媒体客户端&lt;br&gt;流量主" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-9" value="3. 发起竞价请求&lt;br&gt;发送UserID和&lt;br&gt;广告位信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-5" target="dTX89mcppZju5oSnXSA2-7">
+          <mxGeometry y="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-16" value="7. 返回需求方信息&lt;br&gt;广告代码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-5" target="dTX89mcppZju5oSnXSA2-3">
+          <mxGeometry y="60" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-5" value="SSP/ADX&lt;br&gt;广告交易平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="190" width="195" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-11" value="5. 竞价应答并发送&lt;br&gt;eCPM价格和广告代码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-7" target="dTX89mcppZju5oSnXSA2-5">
+          <mxGeometry x="0.1429" y="70" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-7" target="dTX89mcppZju5oSnXSA2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="475" />
+              <mxPoint x="140" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-26" value="9. 返回广告物料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTX89mcppZju5oSnXSA2-25">
+          <mxGeometry x="0.1178" y="-3" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-7" value="DSP&lt;br&gt;需求方平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-17" value="4. 通过竞价引擎计算出是否向&lt;br&gt;该用户或者该广告位投放广告&lt;br&gt;并给出eCPM价格" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-7" target="dTX89mcppZju5oSnXSA2-7">
+          <mxGeometry x="0.2889" y="-30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="460" />
+              <mxPoint x="520" y="560" />
+              <mxPoint x="350" y="560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-22" value="提供用户特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTX89mcppZju5oSnXSA2-19">
+          <mxGeometry x="-0.36" y="-2" relative="1" as="geometry">
+            <mxPoint x="-10" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-18" value="DMP&lt;br&gt;数据管理平台" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-20" value="算法引擎" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-23" value="6. 竞价拍卖，价高者得，二价结算" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-5" target="dTX89mcppZju5oSnXSA2-5">
+          <mxGeometry y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="220" />
+              <mxPoint x="520" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTX89mcppZju5oSnXSA2-27" target="dTX89mcppZju5oSnXSA2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-29" value="投放广告" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTX89mcppZju5oSnXSA2-28">
+          <mxGeometry x="-0.1294" y="-2" relative="1" as="geometry">
+            <mxPoint x="-14" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTX89mcppZju5oSnXSA2-27" value="广告主&lt;br&gt;广告代理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
