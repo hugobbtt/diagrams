@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T12:14:38.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" version="14.1.8" etag="nos_UeaUigf1m41F5k0q" type="github"><diagram id="7bLSGLotbXw-4gd4y2WK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-07T13:25:14.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="2XdLlqqiwgHq_CDYU0jU" version="14.1.8" type="github">
+  <diagram id="7bLSGLotbXw-4gd4y2WK" name="第 1 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-4" value="com.vivo.internet.accountapi.facade.AccountServiceFacade&lt;br&gt;根据账户UUID获得公司名" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-3">
+          <mxGeometry x="0.3021" y="-12" relative="1" as="geometry">
+            <mxPoint x="152" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-8" value="com.vivo.internet.ads.ssp.admin.facade.UploadMediaFacade&lt;br&gt;同步媒体信息给ssp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-6">
+          <mxGeometry x="-0.7967" y="7" relative="1" as="geometry">
+            <mxPoint x="103" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-9" value="com.vivo.internet.ads.ssp.admin.facade.UploadPositionFacade&lt;br&gt;同步广告位信息给ssp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-6">
+          <mxGeometry x="-0.5139" y="43" relative="1" as="geometry">
+            <mxPoint x="67" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-10" value="&lt;span style=&quot;font-size: 11px&quot;&gt;com.vivo.internet.ads.ssp.admin.facade.DspFacade&lt;/span&gt;&lt;br&gt;获取全部的DSP信息 （不包括pdb）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-6">
+          <mxGeometry x="-0.3185" y="26" relative="1" as="geometry">
+            <mxPoint x="84" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;com.vivo.internet.adnetwork.task.facade.FlushRedisServiceFacade&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;更新广告位信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-12">
+          <mxGeometry x="0.5525" y="8" relative="1" as="geometry">
+            <mxPoint x="12" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-14" value="com.vivo.internet.adnetwork.task.facade.OwnershipChangeFacade&lt;br&gt;更改应用所有人" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-12">
+          <mxGeometry x="-0.4" y="17" relative="1" as="geometry">
+            <mxPoint x="-63" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-15" value="com.vivo.internet.adnetwork.task.facade.ReportServiceFacade&lt;br&gt;同步外部报告数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-12">
+          <mxGeometry x="-0.6645" y="5" relative="1" as="geometry">
+            <mxPoint x="-65" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-18" value="com.vivo.internet.ads.pid.task.facade.PidInstanceInfoFacade&lt;br&gt;同步pid实例信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-17">
+          <mxGeometry x="0.7356" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-24" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;com.vivo.internet.developerplatform.facade.service.AppInfoServiceFacade&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;请求开发者平台查询应用列表&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-20">
+          <mxGeometry x="-0.1333" y="17" relative="1" as="geometry">
+            <mxPoint x="-32" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-26" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;com.vivo.internet.developerplatform.facade.service.FinanceInfoServiceFacade&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;开发者平台查询联运财务信息&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-20">
+          <mxGeometry x="0.102" y="-10" relative="1" as="geometry">
+            <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhLD3mblAzWqWwTy-4-c-1" target="PhLD3mblAzWqWwTy-4-c-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-29" value="com.vivo.internet.finance.console.api.facade.FinanceApproveFacade&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;调用结算平台查询主体信息&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhLD3mblAzWqWwTy-4-c-28">
+          <mxGeometry x="0.2333" y="-36" relative="1" as="geometry">
+            <mxPoint x="-30" y="-44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-1" value="adnetwork-console" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-2" value="account-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-5" value="ssp-admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-11" value="adnetwork-task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-16" value="pid-task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-19" value="developer-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhLD3mblAzWqWwTy-4-c-27" value="finance-console-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
