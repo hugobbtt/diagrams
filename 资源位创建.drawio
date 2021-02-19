@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:15:46.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="Vva8lMGuc2gNHnM-kqX4" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T12:14:34.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3938.0 Safari/537.36" etag="w5ubQ-DhOrNagbAgkqsT" version="14.4.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -32,6 +32,9 @@
         <mxCell id="li2CXZxK-HDaXJD094jA-7" value="开发者平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="25" y="60" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="li2CXZxK-HDaXJD094jA-30" value="刷Redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="li2CXZxK-HDaXJD094jA-10" target="li2CXZxK-HDaXJD094jA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-10" value="联盟MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="315" y="300" width="60" height="80" as="geometry" />
         </mxCell>
@@ -52,13 +55,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-12" value="adnetwork-console" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="442" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-15" value="管理和审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="li2CXZxK-HDaXJD094jA-14" target="li2CXZxK-HDaXJD094jA-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-14" value="联盟运营、财务" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;outlineConnect=0;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="430" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="487" y="50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="li2CXZxK-HDaXJD094jA-16" target="li2CXZxK-HDaXJD094jA-24">
           <mxGeometry relative="1" as="geometry" />
@@ -72,22 +75,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-16" value="ssp-admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="675" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="684" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="li2CXZxK-HDaXJD094jA-17" target="li2CXZxK-HDaXJD094jA-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-17" value="ssp运营" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;outlineConnect=0;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="720" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="729" y="50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-21" value="联盟&lt;br&gt;Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="415" y="300" width="60" height="80" as="geometry" />
+          <mxGeometry x="472" y="300" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-24" value="品牌&lt;br&gt;引擎&lt;br&gt;营销平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="955" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="li2CXZxK-HDaXJD094jA-27" value="SSP&lt;br&gt;MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="705" y="300" width="60" height="80" as="geometry" />
+          <mxGeometry x="714" y="300" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
